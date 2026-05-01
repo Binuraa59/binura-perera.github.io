@@ -35,11 +35,17 @@
     "vendor/font-awesome/brands"
 ;
 
+/* ---------- Footer fix ---------- */
 .page__footer {
+  float: none !important;
   clear: both !important;
+  width: 100% !important;
+  margin-top: auto !important;
 }
 
-html, body {
+/* ---------- Sticky footer layout ---------- */
+html,
+body {
   height: 100%;
 }
 
@@ -49,12 +55,6 @@ body {
   flex-direction: column;
 }
 
-.initial-content,
-.page,
-#main {
+.initial-content {
   flex: 1 0 auto;
-}
-
-.page__footer {
-  margin-top: auto;
 }
