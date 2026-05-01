@@ -1,6 +1,6 @@
 ---
 title: "Linear Algebra"
-permalink: /posts/2012/08/blog-post-1/
+permalink: /posts/blog-post-1/
 layout: single
 author_profile: true
 ---
