@@ -23,7 +23,7 @@ repository               : "Binuraa59/binura-perera.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Profile_pic.png"
+  avatar           : "Profile_pic.jpg"
   name             : "Binura Perera"
   pronouns         : # example: "she/her"  
   bio              : "Data Scientist"
