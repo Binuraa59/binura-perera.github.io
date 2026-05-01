@@ -2,51 +2,48 @@
 ---
 
 @import
-    "vendor/breakpoint/breakpoint",
+  "vendor/breakpoint/breakpoint",
 
-    "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+  "themes",
+  "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+  "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
-    "include/mixins",
-    "vendor/susy/susy",
+  "include/mixins",
+  "vendor/susy/susy",
 
-    "layout/reset",
-    "layout/base",
+  "layout/reset",
+  "layout/base",
 
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
+  "include/utilities",
+  "layout/tables",
+  "layout/buttons",
+  "layout/notices",
+  "layout/masthead",
+  "layout/navigation",
+  "layout/footer",
+  "syntax",
 
-    "layout/forms",
+  "layout/forms",
 
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-    "layout/json_cv",
+  "layout/page",
+  "layout/archive",
+  "layout/sidebar",
+  "layout/json_cv",
 
-    "vendor/font-awesome/fontawesome",
-    "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands"
+  "vendor/font-awesome/fontawesome",
+  "vendor/font-awesome/solid",
+  "vendor/font-awesome/brands"
 ;
 
-/* ---------- Footer fix ---------- */
-.page__footer {
-  float: none !important;
-  clear: both !important;
-  width: 100% !important;
-  margin-top: auto !important;
-}
 
-/* ---------- Sticky footer layout ---------- */
+/* ==========================================
+   FIX: Full height sticky footer layout
+========================================== */
 html,
 body {
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -55,6 +52,43 @@ body {
   flex-direction: column;
 }
 
-.initial-content {
+/* Main content grows naturally */
+.initial-content,
+#main,
+.page {
   flex: 1 0 auto;
+}
+
+/* ==========================================
+   FIX: Footer below all content
+========================================== */
+.page__footer,
+footer {
+  position: relative !important;
+  float: none !important;
+  clear: both !important;
+  width: 100%;
+  margin-top: 2rem;
+  z-index: 1;
+}
+
+/* ==========================================
+   FIX: Sidebar not covered by footer
+========================================== */
+.sidebar {
+  padding-bottom: 140px;
+}
+
+/* ==========================================
+   FIX: Mobile spacing
+========================================== */
+@media screen and (max-width: 768px) {
+  .sidebar {
+    padding-bottom: 60px;
+  }
+
+  .page__footer,
+  footer {
+    margin-top: 1rem;
+  }
 }
