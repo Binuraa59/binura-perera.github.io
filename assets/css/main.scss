@@ -41,3 +41,22 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* ===== Custom fix for footer/sidebar overlap ===== */
+
+.page__footer {
+  clear: both !important;
+}
+
+.sidebar {
+  clear: left;
+}
+
+.author__urls-wrapper,
+.sidebar,
+.sidebar.sticky {
+  position: static !important;
+  top: auto !important;
+  overflow: visible !important;
+  max-height: none !important;
+}
