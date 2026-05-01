@@ -1,13 +1,13 @@
 ---
-title: "Paper Title Number 4"
+title: "Random ReLU–Based Support Vector Machine Classifier for Frequency-Domain Data"
 collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+excerpt: 'Effective classification of small-scale frequency domain datasets relies on computationally expensive machine learning methods, which are not ideal. This paper proposes a random Rectified Linear Unit (ReLU)-based feature expansion that augments the original input, enabling an efficient One-vs-Rest (OvR) linear Support Vector Machine (SVM) to model nonlinear decision boundaries to improve classification accuracy. The method projects standardised inputs onto Gaussian random directions, applies a ReLU nonlinearity to introduce sparsity and representational capacity, and concatenates the resulting features with the original input before training the linear SVM model. The proposed method was evaluated on two benchmark datasets, including the United States Postal Service (USPS) dataset and the Free-Speech Digit Dataset (FSDD), across ten random seeds to ensure robustness. Experiments demonstrated that our method outperformed the linear SVM in test accuracy and the Random Forest classifier across all evaluation metrics, achieving mean test accuracies of 0.9716 on USPS and 0.9704 on FSDD, both confirmed as statistically significant improvements via the Wilcoxon signed-rank test. While the method yields slightly lower accuracy than the SVM with a Radial Basis Function kernel, it maintains comparable training time due to the OvR strategy, and the tunable feature dimension provides a flexible accuracy efficiency trade-off adaptable to different resource budgets.'
+date: 2026-05-22
+venue: 'International Congress on Human-Computer Interaction, Optimization and Robotic Applications (ICHORA)'
+paperurl: 'https://drive.google.com/file/d/11P4ltHYBvYA6XdqJpDjdz2x4y5HYgyZx/view?usp=sharing'
+citation: 'A. W. B. M. Perera, W. A. M. Fernando, P. M. Edirisinghe, and M. H. S. Premasiri, “Random ReLU–Based Support Vector Machine Classifier for Frequency-Domain Data,” in 2026 8th International Congress on Human-Computer Interaction, Optimization and Robotic Applications, IEEE, May. 2026, pp. 1–5.'
 ---
 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
