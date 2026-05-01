@@ -38,9 +38,3 @@
 .page__footer {
   clear: both !important;
 }
-
-@media screen and (min-width: $sidebar-screen-min-width) {
-  .page__footer {
-    margin-left: 270px !important;
-  }
-}
