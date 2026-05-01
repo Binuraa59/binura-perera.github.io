@@ -1,14 +1,14 @@
 ---
-title: "Paper Title Number 2"
+title: "A Smooth and Outlier-Resistant Framework for Nonparametric Regression with Modified Huber Loss"
 collection: publications
 category: manuscripts
 permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
-paperurl: 'https://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+excerpt: 'Traditional regression models struggle to maintain robustness against outliers, capture monotonic trends, and preserve smooth functional forms, which can lead to suboptimal predictions. To address these issues, we propose the Huber Monotonic Regression (HMR) model, a novel nonparametric approach that integrates the robustness of the Huber loss function with monotonic and smooth constraints. The versatility and efficiency of this model position as valuable advancements in regression methodologies, particularly in applications where domain knowledge implies a monotonic relationship, but outliers obscure the true trend. Handling both monotonicity and outliers simultaneously is crucial in such cases because enforcing monotonicity alone may amplify the influence of outliers, while robust methods alone may distort the underlying trend if monotonicity is ignored. To evaluate performance, we used twelve benchmark functions and assessed the monotonicity of each function using moving averages. For example, in a strictly monotonic function, y = 7.5log(x+1) + 0.2sinx, and a predominantly monotonic function, y = 5log(x+1) + 0.5sinx, the HMR model achieved superior predictive accuracy, with Mean Absolute Percentage Error (MAPE) values of 2.2955% and 2.3752%, respectively, outperforming traditional regression models, such as Linear, Polynomial, Huber, and Support Vector Regressions. In contrast, traditional models often require extensive hyperparameter tuning or complex feature mappings such as kernel methods to approximate such behaviors. HMR, on the other hand, captures them inherently through its integrated monotonicity and smoothness constraints. While the results are encouraging, further investigation is warranted into potential limitations, particularly regarding the model's generalizability to non-monotonic data.'
+date: 2025-06-20
+venue: 'SSRN'
+
+paperurl: 'https://doi.org/10.2139/ssrn.5313703'
+citation: 'Perera A. W. B. M., Premasiri M. H. S., Wedige M. S., & Fernando A. (2025). Huber Monotonic Regression (HMR): A Smooth and Outlier-Resistant Framework for Nonparametric Regression with Modified Huber Loss. https://doi.org/10.2139/ssrn.5313703.'
 ---
 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
