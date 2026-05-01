@@ -1,14 +1,13 @@
 ---
-title: "Paper Title Number 3"
+title: "Enhancing Fashion-MNIST classification accuracy: A study of regularised least squares and kernel-based approaches"
 collection: publications
-category: manuscripts
+category: conferences
 permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides3.pdf'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+excerpt: 'We explore the application of Least Squares (LS) classifiers for image classification on the Fashion MNIST dataset. To address the challenges of overlapping feature classes, regularisation and kernel techniques were incorporated to enhance model performance. Through t-Distributed Stochastic Neighbour Embedding visualisation, we identified clusters of visually similar classes, such as T-shirts, Pullovers, Coats, and Shirts, which posed significant classification challenges. Our results show that while traditional LS and regularised LS models achieved 0.80 test accuracy, the kernelised LS classifier with l2 norm regularisation significantly improved performance, achieving a test accuracy of 0.86 and higher F1 scores for most classes. However, certain categories, such as Shirts, remained difficult to classify due to their visual similarity with other classes. The kernelised LS approach demonstrated robustness and efficiency despite hardware limitations that restricted the training dataset size. It offers a competitive alternative to more complex supervised learning models such as Random Forest and Support Vector Machines. This study highlights the potential of kernelised LS classifiers for image classification tasks and underscores the importance of addressing feature overlap challenges to achieve further improvements in classification accuracy. The findings suggest that the kernelised LS classifier holds promise for advancing image classification with complex feature interactions due to its simplicity and effectiveness.'
+date: 2025-11-19
+venue: 'SLAAI International Conference on Artificial Intelligence (SLAAI-ICAI)'
+paperurl: 'https://doi.org/10.1109/SLAAI-ICAI68534.2025.11318512'
+citation: 'A. W. B. M. Perera, M. H. S. Premasiri, P. M. Edirisinghe, and W. A. M. Fernando, “Enhancing Fashion-MNIST classification accuracy: A study of regularised least squares and kernel-based approaches,” in 2025 9th SLAAI International Conference on Artificial Intelligence (SLAAI-ICAI), IEEE, Nov. 2025, pp. 1–6. doi: 10.1109/SLAAI-ICAI68534.2025.11318512.'
 ---
 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
